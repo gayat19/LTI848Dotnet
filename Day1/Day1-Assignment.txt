@@ -1,0 +1,17 @@
+1) create a course class
+id-int,name-string,duration-float,cost-double
+with the 
+constructor and a method to print the course details
+call them in the program class main method
+The members should be private. Expose them with getters and setters(Properties)
+
+2) Create a new project and in the program class write code to take 2 integers
+The output should be the result of 
+adding them
+subracting the second number from the first
+multiplying them
+dividing the first number with the second
+
+3) In the course class add a method to take the details from the user
+create a Info class call the method to take the details from user and shift the method call to print the course details in to this class. 
+In the program class use the Object of the Info class to print the details taken from the user

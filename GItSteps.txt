@@ -1,0 +1,48 @@
+Create a github account - one time only
+
+Create a repo - for every project
+
+Download and install git
+URL for download 
+https://git-scm.com/downloads
+
+check if git works well
+git --version
+
+Travel to the folder u want to commit(use cd command example "cd MyFolder/JavaData/Anything")
+
+
+to initialize the folder as a local repo 
+git init
+
+To add the files for commit
+git add -A
+
+to commit the files that are added 
+git commit -a -m "My commit from git"
+
+to connect the remote github repo
+git remote add origin "https://github.com/gayat19/LTI848Dotnet.git"
+
+To add the files to the remote repo
+git push origin master
+
+every day after fininshing the work
+For staging the updated files
+git add .
+
+To commit the updated files
+git commit -m "message"
+
+to update the remote repo
+git push origin masater
+
+
+
+
+
+git remote remove "https://github.com/gayat19/LTI848Dotnet.git"
+
+
+
+

@@ -1,0 +1,37 @@
+c#
+VS.net
+  Interoperability
+PE, CLR, CSC,CTS, CLS, TypeSafety, Versioning, Debugging, DLL Hell
+
+Variable, Identifier, DataTypes, Value and Ref Type, Class, Object
+
+
+
+Code
+int iNum1 = 100;//4
+            float fNum2 = 123.23f;//4 3+1
+            double dNum3 = 234432.24;//8 6+2
+            char cMyChar = 'T';
+            string strData = "Tea";
+            //Console.WriteLine("The value of interger in the code is " + iNum1);
+            //Console.WriteLine("The value {0} is the float value present", fNum2);
+            //Console.WriteLine("The value " + dNum3 + " is the double value present");
+            //Console.WriteLine("The other two values are {0} and {1}", cMyChar, strData);
+            //Console.WriteLine("This is an output statement");
+            Console.WriteLine("user user please enter some string");
+            strData = Console.ReadLine();
+            Console.WriteLine("The other two values are {0} and {1}", cMyChar, strData);
+            Console.WriteLine("user user please enter a integer");
+            iNum1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The value of interger in the code is " + iNum1);
+            Console.WriteLine("user user please enter a float value");
+            fNum2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("The value {0} is the float value present", fNum2);
+            Console.WriteLine("user user please enter teh double value you have");
+            dNum3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The value " + dNum3 + " is the double value present");
+
+
+int iNum1;
+            
+

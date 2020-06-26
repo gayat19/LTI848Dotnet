@@ -1,0 +1,4 @@
+1) Create a Movie class with id,name and duration
+with method to print the details
+Create a MovieManager class which will create a movie and print the details
+In the program class call the methods of the MovieManager class

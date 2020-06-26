@@ -1,0 +1,6 @@
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\bin\Debug\SchoolApplication.exe.config
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\bin\Debug\SchoolApplication.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\bin\Debug\SchoolApplication.pdb
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\obj\Debug\SchoolApplication.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\obj\Debug\SchoolApplication.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\SchoolSolution\SchoolApplication\obj\Debug\SchoolApplication.pdb

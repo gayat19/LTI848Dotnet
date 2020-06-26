@@ -1,0 +1,7 @@
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\bin\Debug\FirstProject.exe.config
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\bin\Debug\FirstProject.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\bin\Debug\FirstProject.pdb
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\obj\Debug\FirstProject.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\obj\Debug\FirstProject.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\FirstSolution\FirstProject\obj\Debug\FirstProject.pdb
