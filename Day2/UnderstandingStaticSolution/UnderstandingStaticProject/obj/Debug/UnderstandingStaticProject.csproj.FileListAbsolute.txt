@@ -1,0 +1,7 @@
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\bin\Debug\UnderstandingStaticProject.exe.config
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\bin\Debug\UnderstandingStaticProject.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\bin\Debug\UnderstandingStaticProject.pdb
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\obj\Debug\UnderstandingStaticProject.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\obj\Debug\UnderstandingStaticProject.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\obj\Debug\UnderstandingStaticProject.exe
+C:\Users\Gayathri Mahadevan\Desktop\Day1\UnderstandingStaticSolution\UnderstandingStaticProject\obj\Debug\UnderstandingStaticProject.pdb
