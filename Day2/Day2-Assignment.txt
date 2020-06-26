@@ -2,3 +2,24 @@
 with method to print the details
 Create a MovieManager class which will create a movie and print the details
 In the program class call the methods of the MovieManager class
+
+2) Get a number from user and check if it is divisible by 7
+
+3) Get 3 numbers from user and print the greatest
+Note:Please ensure you check equality
+
+4) Create a class Doctor with
+Doctor name, age, exp and phone
+When the doctor object gets created the exp shouldl be set to 1 by default. 
+When the doctor object is destroyed everytime it should print a "bye from <doctorname>" message
+eg: bye from Dr. Ramu
+Create methods to take input and print the doctor details respectively.
+Create a clinic class where you can add and remove doctor object
+
+5) Take a string from user and print it in upper case and lower case
+
+6) Take a string from user and print the number of chars in the string
+
+7) Take 3 numbers from user
+Create methods to 
+Add, multiply them and print the results 
