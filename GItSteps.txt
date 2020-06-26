@@ -38,6 +38,16 @@ to update the remote repo
 git push origin masater
 
 
+To pull my work
+First time 
+In a folder
+git init
+git remote add origin "https://github.com/gayat19/LTI848Dotnet.git"
+
+Every day from day 1
+git pull origin master
+
+
 
 
 
