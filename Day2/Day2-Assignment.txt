@@ -14,7 +14,7 @@ When the doctor object gets created the exp shouldl be set to 1 by default.
 When the doctor object is destroyed everytime it should print a "bye from <doctorname>" message
 eg: bye from Dr. Ramu
 Create methods to take input and print the doctor details respectively.
-Create a clinic class where you can add and remove doctor object
+Create a Clinic class where you can add and remove doctor object
 
 5) Take a string from user and print it in upper case and lower case
 

@@ -1,0 +1,6 @@
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\obj\Debug\EmployeeLibrary.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\obj\Debug\EmployeeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb

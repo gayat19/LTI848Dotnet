@@ -1,0 +1,10 @@
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\bin\Debug\CompanyApplication.exe.config
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\bin\Debug\CompanyApplication.exe
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\bin\Debug\CompanyApplication.pdb
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\obj\Debug\CompanyApplication.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\obj\Debug\CompanyApplication.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\obj\Debug\CompanyApplication.exe
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\obj\Debug\CompanyApplication.pdb
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\bin\Debug\EmployeeLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\bin\Debug\EmployeeLibrary.pdb
+C:\Users\Gayathri Mahadevan\source\repos\CompanySolution\CompanyApplication\obj\Debug\CompanyApplication.csproj.CopyComplete

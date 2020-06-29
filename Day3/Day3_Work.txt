@@ -1,0 +1,1 @@
+Inheritance, Parameter,types of Inheritance - single,Hirarc, multi-lev,Gendralization,Specialization, Casting to ChildType, For,While, doWhile, Switch, Constructors and Inheritance, Encapsulation, Pulic,Private,Protected, Internal, Protected Internal

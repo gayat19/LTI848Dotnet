@@ -1,0 +1,33 @@
+1) Get a number from user and check if it is prime or not
+2) a. Create a class Employee with the members - 10 Mins
+id
+name
+age
+phone
+
+Methods
+TakeEmployeeDetailsFromUser()
+PrintEmployeeDetails()
+b. Create 2 childern for the Employee Class
+PartTimeEmployee,FullTimeEmployee
+PartTimeEmployee 
+Working()
+FullTimeEmployee has
+ScheduledWork()
+c. Create a Company Class
+CreateEmployee Method
+Ask the user the type of employee to be created and create it
+Call the RunCompany(Employee employee) method using the object created
+
+
+3) Get input from user for min and max number. find all the prime numbers inthe range.
+
+4) Get a word from user and check if it contains a given char
+
+5) Get a number from user. from 1 till the number print all the numebrs that are divisible by both 7 and 3 
+
+6) Create a Class Doctor and inherit to create 3 child class- Ortho,Dental,Neuro
+Specialize the child class with specific methods of the doc
+Create a Clinic class which has fix appoitment. 
+Ask the patient to choose the doc and call the Consult method with the proper doctor parameter.
+ 

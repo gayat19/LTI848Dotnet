@@ -1,0 +1,7 @@
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\bin\Debug\prjInheritanceExampleProject.exe.config
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\bin\Debug\prjInheritanceExampleProject.exe
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\bin\Debug\prjInheritanceExampleProject.pdb
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\obj\Debug\prjInheritanceExampleProject.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\obj\Debug\prjInheritanceExampleProject.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\obj\Debug\prjInheritanceExampleProject.exe
+C:\Users\Gayathri Mahadevan\source\repos\InheritanceExampleSolution\prjInheritanceExampleProject\obj\Debug\prjInheritanceExampleProject.pdb
