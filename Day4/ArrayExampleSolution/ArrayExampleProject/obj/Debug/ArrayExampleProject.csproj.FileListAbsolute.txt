@@ -1,0 +1,20 @@
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.exe.config
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.exe
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.pdb
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.exe
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.pdb
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\bin\Debug\SchoolLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\bin\Debug\SchoolLibrary.pdb
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csproj.CopyComplete
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.exe.config
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.exe
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\bin\Debug\ArrayExampleProject.pdb
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\bin\Debug\SchoolLibrary.dll
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\bin\Debug\SchoolLibrary.pdb
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csprojAssemblyReference.cache
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csproj.CoreCompileInputs.cache
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.csproj.CopyComplete
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.exe
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\ArrayExampleProject\obj\Debug\ArrayExampleProject.pdb

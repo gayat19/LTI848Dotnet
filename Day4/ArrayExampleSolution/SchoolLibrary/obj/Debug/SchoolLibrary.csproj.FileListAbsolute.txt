@@ -1,0 +1,11 @@
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\SchoolLibrary\bin\Debug\SchoolLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\SchoolLibrary\bin\Debug\SchoolLibrary.pdb
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.dll
+C:\Users\Gayathri Mahadevan\source\repos\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.pdb
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\bin\Debug\SchoolLibrary.dll
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\bin\Debug\SchoolLibrary.pdb
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.csprojAssemblyReference.cache
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.csproj.CoreCompileInputs.cache
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.dll
+E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day4\ArrayExampleSolution\SchoolLibrary\obj\Debug\SchoolLibrary.pdb

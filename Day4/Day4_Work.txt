@@ -1,0 +1,20 @@
+Array,Index,Indexer,ClassLib,Ref,forech,Polymorphism,
+
+
+Naming
+Project - Exe
+Library - dll
+
+Private Variables(Instance)
+camelCase example number to store stock id will be "stockId"
+Private Variables(Constant)
+Pascal Case example number to 22/7 will be "PI"
+Public Members(Instance+Static- Properties,Methods)
+Starts with an upper case. Captalize every words's first letter
+Example - GetCustomerDetailsFromUser(), Id
+Note - Method names have to be verbs
+Add summary to every method
+
+Class
+Starts with an upper case. Captalize every words's first letter
+Mostly Nouns

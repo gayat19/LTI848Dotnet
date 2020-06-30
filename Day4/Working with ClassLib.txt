@@ -1,0 +1,11 @@
+Create a solution with a ClassLib
+that library should be  ClassLibDotnetFramework
+Create a class(Should be public)
+Code the class
+Build the Library(Compile)
+
+Add a ConsoleApplication to the solution
+Add the ref of the lib to the references in the project
+In the class where the library's class has to be used imprort the library
+
+Now we can use the Library's class in the project.
