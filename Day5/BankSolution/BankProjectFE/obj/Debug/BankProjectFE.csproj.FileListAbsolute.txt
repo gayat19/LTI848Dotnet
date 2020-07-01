@@ -1,0 +1,10 @@
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\bin\Debug\BankProjectFE.exe.config
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\bin\Debug\BankProjectFE.exe
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\bin\Debug\BankProjectFE.pdb
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\bin\Debug\BankModel.dll
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\bin\Debug\BankModel.pdb
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\obj\Debug\BankProjectFE.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\obj\Debug\BankProjectFE.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\obj\Debug\BankProjectFE.csproj.CopyComplete
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\obj\Debug\BankProjectFE.exe
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankProjectFE\obj\Debug\BankProjectFE.pdb

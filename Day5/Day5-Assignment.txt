@@ -1,0 +1,19 @@
+1) Create an Studnet Model class
+id,name,age,phone,hobbies
+Hobbies is an array of string
+If I add 2 students I want their names to be concatinated(Hint:-Operator Overloading)
+
+Create a StudentManager Class in another Project 
+Expose the student array using Indexder also overload it
+If i pass the studnet name. The indexer should give me the index of the student in the array
+Do the CRUD
+
+
+Create a class to be FE.
+Show option for 
+CRUD and
+adding students
+Getting the studnet by name
+
+
+

@@ -1,0 +1,8 @@
+Model Class
+private members
+Public Properties
+Public Methods-Which you want to expose
+   Get Data from user
+   ToString - override
+   Equals - override
+Default and Parameterized constructors

@@ -1,0 +1,6 @@
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\bin\Debug\BankModel.dll
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\bin\Debug\BankModel.pdb
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\obj\Debug\BankModel.csprojAssemblyReference.cache
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\obj\Debug\BankModel.csproj.CoreCompileInputs.cache
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\obj\Debug\BankModel.dll
+C:\Users\Gayathri Mahadevan\source\repos\BankSolution\BankModel\obj\Debug\BankModel.pdb
