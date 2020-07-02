@@ -1,0 +1,26 @@
+1) Create a Program that will take 5 numbers from user and arrange them in ascending order
+
+2) Create an application that will take a string from user and see if it an email id
+(Hint:RegEx)
+
+3) ways of creating objects 
+
+4) Take a sentence from user. Count the number of words, chars and print it
+Also count the number of time each vowel has appeared in the sentence. Notepad Question
+
+5) Create an application that will take employee details
+When you add employee check teh employee age. If the employee is > 18 then add. else raise an exception and move to take the next employee details.
+1) Add Employees
+2) Delete Employee
+3) Update Employee
+4) Print Employee
+5) Print All Employees
+6) Exit
+Employee details should include 
+ID
+Name
+Age
+Phone
+The appplication should not end with an exception
+
+6) What is the use of equals method. Try to work an example.

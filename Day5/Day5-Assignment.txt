@@ -16,4 +16,13 @@ adding students
 Getting the studnet by name
 
 
+2) Get 11 numbers from user. In that 5 numbers repeat themself. Find the one unique number. If possible do it with minimum number of loops
+example
+10,20,33,43,58,90,10,33,43,58,20
+The unique number is 90
+
+3) Get numbers from user until the user enters negative value and arrange them descending order in the quickest possible way.
+
+
+
 

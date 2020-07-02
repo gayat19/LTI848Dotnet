@@ -1,0 +1,35 @@
+Regex,Shadowing,Abstract Calss,Interface, Exception Handling,Selaed,Sealed Class,User Defined Exception.
+
+
+using System;
+using System.Text.RegularExpressions;
+
+namespace EmailValidationProject{
+
+  class EmailCheck{
+
+      string email;
+    
+      void TakeEmailFromUser(){
+	  Console.WriteLine("Please Enter the email addrress");
+	  email = Console.ReadLine();
+      }
+    
+      void ValidateEmail(){
+	  Regex regex = new Regex("^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$");
+  	  Match match = regex.Match(email);
+	  if(match.Success)
+	      Console.WriteLine("Correct Email");
+	  else
+	      Console.WriteLine("Invalid Email");	
+      }
+
+      static void Main(string[] a)
+      {
+          EmailCheck emailCheck = new EmailCheck();
+          emailCheck.TakeEmailFromUser();
+          emailCheck.ValidateEmail();
+          Console.ReadKey();
+      }
+  }
+}
