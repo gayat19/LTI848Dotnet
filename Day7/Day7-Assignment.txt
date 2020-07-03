@@ -1,0 +1,19 @@
+1) Convert the CRUD you did from array to a collection. Handle Exceptions in the application.
+
+2) Create an application which will help you to play a game(Notepad question)
+Cow and bull
+Take a 4 letter word
+Example: Heat
+
+Ask the user to start guessing
+Guess 1 : Boat
+Cows - 2, Bulls - 0
+Guess 2 : Loaf
+Cows - 1, Bulls - 0
+Guess 3 : Tail
+Cows - 0, Bulls - 2
+Guess 4 : Beat
+Cows - 3, Bulls - 0
+Guess 5 : Heat
+Cows - 4, Bulls - 0
+Yayyyy.. you won in the 5th guess
