@@ -340,6 +340,7 @@ namespace CollectionExampleProject
         double ExampleWithOut(int num1,out int num2)
         {
             num1 = 200;
+            Console.WriteLine(num1);
            //Console.WriteLine(num2+" is what it brought");
             num2 = num1 + 20 * 100 - 234;
             return (num2 / num1);

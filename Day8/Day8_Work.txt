@@ -1,0 +1,52 @@
+DESKTOP-SGS06H0\G3
+sa
+p@ssw0rd123
+
+ dbTraining
+
+Integrated Security=true
+
+Data Source = <ServerNameinSQL Connection>;user id=<userid>;password=<password>;Initial Catalog = <database name>
+
+Data Source = <ServerNameinSQL Connection>;Integrated Security=true
+;Initial Catalog = <database name>
+
+
+Data Source = <ServerNameinSQL Connection>;Integrated Security=true
+;Initial Catalog = <database name>
+
+
+Server=.;Data Source = <ServerNameinSQL Connection>;Integrated Security=true
+;Initial Catalog = <database name>
+
+Select
+Create an connection 
+Execute the query
+Store/show the data
+If Store then display
+
+
+DML
+Create a connection
+Execute and DML
+Get confirmation
+
+1) In the reference
+Add reference to System.Configuration
+
+2) using System.Configuration
+
+3) AppSettings file- outside the startup tag. but inside the configuration tag
+
+ <connectionStrings>
+    <add name="conBank" connectionString="Data Source = DESKTOP-SGS06H0\G3;user id=sa;password=p@ssw0rd123;Initial Catalog = dbTraining"/>
+  </connectionStrings>
+
+4) While instantiating the connection object
+
+ conn = new SqlConnection(ConfigurationManager.ConnectionStrings["conBank"].ConnectionString);
+
+
+
+
+
