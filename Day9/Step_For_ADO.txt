@@ -1,0 +1,31 @@
+1) Adding the configuration assembly ref
+2) in The Database access class file
+add imports for 
+System.Data
+System.Data.SqlClient
+System.Configuration
+
+3) In the App Setting file add the connectionStrings tag with one connection
+
+4) Create instance for SQLConnection and instansiate it
+
+5.1) If you want to retrive data using connected then
+Command object has to instansiated with the command and connection
+Open the connection
+Use the ExecuteReader and get it in an SQLReader Ref.
+Itrerate through the reader using the Read method after you read teh data close teh connection
+(or)
+5.2) If you want to retrive data using disconnected then
+Command object has to instansiated with the command and connection
+Open the connection
+Create a DataAdapter with teh command
+Create a data set object and instansiate it.
+Use the Fill method of the dataadapter and fill teh data in the dataset.
+Itrerate through the dataset's Table's Rows. 
+In each row use teh index or teh column name to access the data
+(or)
+5.3) If you want to modify data using connected then
+Command object has to instansiated with the command and connection
+Open the connection
+Use the ExecuteNonQuery and get the number of rows afftected in int
+check int to see if the DML was successful

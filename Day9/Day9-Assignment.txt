@@ -1,0 +1,16 @@
+Create a table Users
+username varchar(20) pk
+password varchar(20)
+activeStatus int(0/1)
+Please write the req SPs
+
+
+Create and application that will register user. 
+Login(3 attempts of unsuccessful login should change the user status to 0)-Log in will only be successful if username and password match and the user is valid(i.e) the status is 1
+If looged in then can change password.
+
+1) User - Model Class
+2) UserManager/UserDAO-Deal with the database
+3) UserFE - for teh front end
+
+Please do exception handling where req.

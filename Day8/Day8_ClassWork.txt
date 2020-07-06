@@ -1,0 +1,11 @@
+1) Create an Student Class which can be sorted, and compared and printed
+
+The properties of the class are
+id - int, name - string , score - float
+
+Create table with the same attributes and sps for select,insert, update and delete
+
+using the sps in the code create an c# app to do the CRUD in the table
+For select use discon arch
+For Insert,update and delete use connected arch
+
