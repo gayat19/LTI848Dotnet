@@ -1,0 +1,51 @@
+A[0] = 9  A[1] = 3  A[2] = 9
+  A[3] =4  A[4] = 8  A[5] = 7
+  A[6] = 2 A[7]=1 A[8]=6 
+
+O(n^2) - nested loop
+O(n) - One loop + List - Space - O(n)
+O(n) - One loop + key,value- Space< O(log(n))
+O(n) - One loop + XOR- Space - log(1)
+
+
+
+boolean FindNumber(int[] nums,int num)
+{
+   for(int i=0;i<nums.Lenght;i++)
+   {
+	if(nums[i]==num)
+	   return true;
+   }
+   return false;
+}
+
+int[] SortArray(int[] a)
+{
+   int temp =0;
+   for(int i=0;i<a.Lenght;i++)
+   {
+       for(int j=0;j<a.Length-1;j++)
+	{
+    	    if(a[j]>a[j+1])
+	    {
+		//swap code
+	     }
+	}
+    }
+   return a;
+}
+
+
+
+
+9 - 4
+3 - 3
+4 - 2
+7 - 2
+
+O(1)
+O(n)
+for(int i=0;i<n;i++)
+{
+  statement set
+}
