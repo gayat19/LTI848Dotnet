@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        @keyframes myAnimation{
+            0% {
+                left: 0px; /*top:0px;*/
+                background-color: red;
+            }
+            25% {
+                left: 30px;
+                /*top: 30px;*/
+                background-color: pink;
+                transform: rotate(25deg);
+            }
+            50% {
+                left: 60px;
+                top: 0px;
+                background-color: lightcoral;
+                transform: rotate(50deg);
+            }
+            75% {
+                left: 90px;
+                /*top: 30px;*/
+                background-color: violet;
+                transform: rotate(75deg);
+            }
+            100% {
+                left: 120px;
+                /*top: 0px;*/
+                background-color: blue;
+                transform: rotate(120deg);
+            }
+        }
+        div {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50px;
+            animation-name: myAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            text-align: center;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div>RockRoll</div>
+</body>
+</html>

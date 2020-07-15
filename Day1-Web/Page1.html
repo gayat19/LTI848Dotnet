@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>G3 First Page</title>
+    <style>
+        body {
+            background-color: teal;
+        }
+        #s1 {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body  style="background-color:pink;">
+    <h1>DOM-Document Object Model</h1>
+    <div>
+        This will explain the content.
+        This will not be in line 2
+    </div>
+    <section id="s1">
+        Here is the section which is a symantic element, indication that it is a section of the page
+
+        but if you need a break in the line<br /> use &lt;br&gt;<!--This is an entity-->
+    </section>
+    <article>
+        This is not for format but for <b>understanding</b>
+        <br />
+        This is not for format but for <strong>understanding</strong><!--Symantic-->
+        <br />
+        <i>Italics</i><u>Underline</u><mark>Highlight</mark><em>Symatic for italics</em>
+        <big>Font size change</big>
+        <br />
+        <font size="20" face="Monotype Corsiva">Change with font tag</font>
+        <img src="./images/Image2.jpg" alt="No Image go go" height="200" width="200" />
+        <p>
+            This is in para 1. We can have a lot of data here
+        </p>
+        <p>
+            This is para 2 and we can see the spacing difference
+        </p>
+    </article>
+    <div>
+        <ul type="round">
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Milk</li>
+        </ul>
+        <ol type="I">
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Milk</li>
+        </ol>
+        <dl>
+            <dt>Term</dt>
+            <dd>This is the explanation for the term</dd>
+            <dt>Another</dt>
+            <dd>Write the def for teh term here</dd>
+        </dl>
+    </div>
+    <hr color="maroon"/>
+    <section>
+        <table border="1">
+            <tr>
+                <th>Item Code</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Pic</th>
+            </tr>
+            <tr>
+                <td>I001</td>
+                <td>Doll</td>
+                <td>$1500</td>
+                <td><img src="./images/Doll.jpg" height="100" width="100"/></td>
+            </tr>
+            <tr>
+                <td>I002</td>
+                <td>Car</td>
+                <td>$1700</td>
+                <td><img src="./images/Car.jpg" height="100" width="100"/></td>
+            </tr>
+        </table>
+    </section>
+    <div>
+        Progress Bar: <progress value="50" max="100"></progress>
+        Meter: <meter value="3" max="10"></meter>
+    </div>
+    <section>
+        <audio controls><!--Directive- controls-->
+            <source src="./files/audio1.mp3" type="audio/mp3"/>
+        </audio>
+        <video controls>
+            <source src="./files/video1.mp4" type="video/mp4"/>
+        </video>
+        <embed src="./files/clock.swf"/>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</html>

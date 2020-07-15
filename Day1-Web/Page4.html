@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style1.css" rel="stylesheet" />
+    <style>
+        div, section {
+            background-color: burlywood;
+            position: relative;
+            height: 40%;
+            width: 40%;
+            border-width: 4px 2px 8px 1px; /*Top Right Bottom Left*/
+            border-color: chocolate red blue; /*Top Left+Right Bottom*/
+            border-style: dashed solid; /*Top+Bottom Left+Right*/
+            /*border: 4px solid blue;*/
+        }
+
+        #div1 {
+            /*left: 400px;
+            top: 200px;*/
+            padding: 2%;
+            margin: 5%;
+        }
+
+        .report {
+            /*left: 600px;
+            top: 200px;*/
+            margin: 5%;
+        }
+
+        article {
+            position: relative;
+            background-color: burlywood;
+            position: relative;
+            height: 40%;
+            width: 40%;
+            margin: 5%;
+        }
+
+        aside {
+            position: relative;
+            height: 40%;
+            width: 40%;
+            font-size: 2em;
+            color: red;
+            font-family: Monotype Corsiva;
+            left: 55%;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="div1">
+        Hello from Div1
+    </div>
+    <div id="div2" class="report">
+        Hello from Div2
+    </div>
+    <section class="report">
+        Hello from section
+    </section>
+    <article>
+        <aside>"importanttttttttttttttttttttttttttttt line"</aside>
+        Hello from article. In some of the pages you can see a line or 2 given more importance
+    </article>
+</body>
+</html>
