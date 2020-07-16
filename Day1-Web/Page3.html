@@ -2,6 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <script src="scriptCollectData.js"></script>
     <link href="style1.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
@@ -11,7 +12,7 @@
     <title></title>
 </head>
 <body>
-    <form action="Page2.html" class="alert alert-primary">
+    <form name="frmUser" class="alert alert-primary">
         <table>
             <tr>
                 <td><label for="txtName">Name</label></td>
@@ -55,7 +56,7 @@
             <tr>
                 <td><label>City</label></td>
                 <td>
-                    <select  class="form-control">
+                    <select id="ddlCity" class="form-control">
                         <option value="Agra">Agra</option>
                         <option value="Bengaluru">Bangalore</option>
                         <option value="Chennai">Chennai</option>
@@ -66,7 +67,7 @@
             <tr>
                 <td><label>Country</label></td>
                 <td>
-                    <input list="countryList" value="--select--" class="form-control"/>
+                    <input list="countryList" value="--select--" id="ddlCountry" class="form-control"/>
                     <datalist id="countryList">
                         <option value="China"/>
                         <option value="USA"/>
@@ -76,7 +77,7 @@
                 </td>
             </tr>
             <tr>
-                <td><input type="submit" class="btn btn-success" /></td>
+                <td><input type="submit" onclick="getData()" class="btn btn-success" /></td>
                 <td><input type="reset" class="btn btn-primary" /></td>
             </tr>
         </table>

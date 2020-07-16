@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link href="./files/css/bootstrap.css" rel="stylesheet"/>
+        <title>JavaScript</title>
+        <script src="script1.js"></script>
+        <script>
+            function chkUN(){
+
+                var ctrlName = document.getElementById("txtUN");
+                if(ctrlName.value ==""){
+                    //alert("Name cannot be empty");
+                    ctrlName.style.borderColor="red";
+                    ctrlName.focus();
+                    return;
+                }
+                else
+                {
+                    ctrlName.style.borderColor="green";
+                }
+            }
+            function chkPass(){
+                var ctrlAge = document.getElementById("txtPass");
+                if(ctrlAge.value ==""){
+                    ctrlAge.style.borderColor="Red";
+                    ctrlAge.focus();
+                }
+                else
+                {
+                    ctrlAge.style.borderColor="green";
+                }
+            }
+           function something(){
+            alert('While you see the page.....');
+           }
+           function checkName(){
+                var ctrlName = document.getElementById("txtName");
+                if(ctrlName.value ==""){
+                    //alert("Name cannot be empty");
+                    ctrlName.style.borderColor="red";
+                    ctrlName.focus();
+                    return;
+                }
+                else
+                {
+                    ctrlName.style.borderColor="green";
+                }
+                var ctrlAge = document.getElementById("txtAge");
+                if(ctrlAge.value ==""){
+                    ctrlAge.style.borderColor="Red";
+                    ctrlAge.focus();
+                }
+                else
+                {
+                    ctrlAge.style.borderColor="green";
+                }
+           }
+        </script>
+        <style>
+            #divControls{
+                position: relative;
+                height: 200px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>First JavaScript</h1>
+        <div id="divControls" class="alert alert-warning">
+            <form name="frmLogin">
+                <label for="txtUN">Username</label>
+                <input type="text" class="form-control" id="txtUN" onblur="chkUN()"/>
+                <label for="txtPass">Password</label>
+                <input type="password" class="form-control" id="txtPass" onblur="chkPass()"/>
+                <button class="btn btn-primary" onclick="login()">Login</button>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
