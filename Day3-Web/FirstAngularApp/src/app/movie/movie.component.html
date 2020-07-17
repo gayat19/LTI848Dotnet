@@ -1,0 +1,17 @@
+<section class="alert alert-success">
+    <label for="txtName" >Movie Name</label>
+    <input type="text" [(ngModel)]="movie.name" class="form-control">
+    <label for="txtName" >Movie Duration</label>
+    <input type="text" [(ngModel)]="movie.duration" class="form-control">
+    <label for="txtName" >Number of Likes</label>
+    <input type="text" [(ngModel)]="movie.likeStatus" class="form-control">
+    <button (click)="displayDetails()" class="btn btn-danger">Store Movie</button>
+    <span class="glyphicon glyphicon-thumbs-up" (click)="incrLikes()"></span>
+</section>
+<hr/>
+<section [hidden]="showToggle">
+   {{movies|json}}
+</section>
+<section>
+    <img [src]="movies[0].pic" alt="Unable to bind"/>
+</section>

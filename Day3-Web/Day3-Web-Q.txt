@@ -1,0 +1,5 @@
+Create a new angular application with name "FlowerStoreApplication"
+
+Create an component that will display the flower details and add flower to the list
+
+There can be flowers that are likes and not liked

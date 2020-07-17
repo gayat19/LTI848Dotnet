@@ -1,0 +1,14 @@
+<h1>
+    Menu Heading
+</h1>
+<p class="alert alert-info">
+    Each mango is Rs. 25. enter the quantity you need
+</p>
+
+<input type="text" [(ngModel)]="qty"><!--2 way binding-->
+
+<input type="text" #txtQty [value]="qty"><!--property binding-->
+<button class="btn btn-warning" (click)="incrQty(txtQty.value)">One More Mango</button><!--Event binding-->
+You have to pay Rs. {{qty*25}}<!--Interpolation-->
+
+

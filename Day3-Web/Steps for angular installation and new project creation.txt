@@ -1,0 +1,35 @@
+Step 1: Dwonload Node from https://nodejs.org/en/
+
+Step 2: Install Node
+Check Node version 
+in the cmd prompt
+node -v
+npm -v 
+The above cmd checks the node package manager's version
+
+Step 3: Angular Instalation
+in the cmd prompt
+npm install -g @angular/cli
+Check angular installation 
+in cmd prompt
+ng --version
+
+Step 4: Go to location where you want the anular app to be in the cmd prompt
+
+cd <your path>
+
+Step 5: Creating an application
+in the cmd prompt
+ng new <applicationName>
+
+
+Step 6: Starting the server
+In the cmd Prompt 
+cd <applicationName>
+ng serve
+
+Step 7: Go to the browser
+key in " http://localhost:4200/" in the addressbar 
+
+andddddddd you are go to go...............
+

@@ -1,0 +1,61 @@
+MEAN
+Mongo - database - no SQL
+Express - APIs Creation - JS
+Angular - FrontEnd - TypeScript
+Node - Server
+
+FullStack-Java/.NET/Python
+
+TypeScript is compiler based 
+It compiles to become Javascript
+
+ng generate component <componentName>
+(or)
+ng g c <componentName>
+
+
+ng new <application name>
+cd <application name>
+ng serve
+localhost:4200
+
+
+<app-root> - AppComponent - Class(with the Component decorator)+HTML+CSS
+Any Component has Class(with the Component decorator)+HTML+CSS
+Component takes the JSON with selector,template/templateUrl,style/styleURL
+
+use the selector as an element in the displaying component
+
+Install Bootstrap in the app
+npm install bootstrap --save
+the above in the cmd prompt
+
+In the Angular app inthe style.css file
+@import 'bootstrap/dist/css/bootstrap.css';
+
+
+
+MVC- Model View Controller
+
+Service->ExternalService
+
+
+ng g c like
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
