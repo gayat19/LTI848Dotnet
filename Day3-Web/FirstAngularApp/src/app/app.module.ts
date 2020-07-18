@@ -10,6 +10,7 @@ import { MovieComponent } from './movie/movie.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieService } from './movie/movie.service';
+import { MoviecartComponent } from './moviecart/moviecart.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MovieService } from './movie/movie.service';
     LikeComponent,
     MovieComponent,
     FlowersComponent,
-    MoviesComponent
+    MoviesComponent,
+    MoviecartComponent
   ],
   imports: [
     BrowserModule,

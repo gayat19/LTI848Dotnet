@@ -1,7 +1,7 @@
 span{
     color:darkmagenta;
 }
-p{
+#display{
     border: solid brown 1px;
     position: relative;
     float: left;

@@ -1,12 +1,17 @@
 <section>
-    <p *ngFor="let movie of movies" class="alert alert-warning">
-        Name: {{movie.name}}<br/>
-        Duration:{{movie.duration}}<br/>
-        <!-- Movie Pic:<img [hidden]="movie.pic?false:true" [src]="movie.pic" height=100 width="100" alt="No Pic"/><br/> -->
-        Movie Pic:<img *ngIf="movie.pic; else noImg" [src]="movie.pic" height=100 width="100" alt="No Pic"/>
-        <ng-template #noImg>Sorry!!!!! no image available at this moment</ng-template>
-        <br/>
-        Fav Status:<span [class]="movie.likeStatus>3?'glyphicon glyphicon-heart':'glyphicon glyphicon-heart-empty'"> 
-        </span>
-    </p>
+    <section *ngFor="let movie of movies" class="alert alert-warning" id="display">
+        <p *ngIf="movie.count; else soldOut">
+            Name: {{movie.name}}<br/>
+            Duration:{{movie.duration}}<br/>
+            Available Count:{{movie.count}}<br/>
+            <!-- Movie Pic:<img [hidden]="movie.pic?false:true" [src]="movie.pic" height=100 width="100" alt="No Pic"/><br/> -->
+            Movie Pic:<img *ngIf="movie.pic; else noImg" [src]="movie.pic" height=100 width="100" alt="No Pic"/>
+            <ng-template #noImg>Sorry!!!!! no image available at this moment</ng-template>
+            <br/>
+            Fav Status:<span [class]="movie.likeStatus>3?'glyphicon glyphicon-heart':'glyphicon glyphicon-heart-empty'"> 
+            </span>
+            <button (click)="addToCart(movie)" class="btn btn-primary">Add To Cart</button>
+        </p>
+        <ng-template #soldOut>Movie Soldout</ng-template>
+    </section>
 </section>

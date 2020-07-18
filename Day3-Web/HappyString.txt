@@ -1,0 +1,38 @@
+
+
+public class Solution {
+    public string LongestDiverseString(int a, int b, int c) {
+        string strResult = "";
+        int length = a+b+c;
+        int cntA,cntB,cntC =0;
+        cntA=cntB=cntC;
+        for(int i=0;i<length;i++)
+        {
+            if((a>=b && a>=c &&cntA !=2) || (a>0 &&(cntB ==2 || cntC==2)))
+            {
+                strResult += "a";
+                cntA++;
+                cntB=0;
+                cntC =0;
+                a--;
+            }
+            else if((b>=a && b>=c &&cntB !=2) || (b>0 &&(cntA ==2 || cntC==2)))
+            {
+                strResult+= "b";
+                cntB++;
+                cntA=0;
+                cntC =0;
+                b--;
+            }
+            else if((c>=a && c>=b &&cntC !=2) || (c>0 &&(cntA ==2 || cntB==2)))
+            {
+                strResult+= "c";
+                cntC++;
+                cntA=0;
+                cntB =0;
+                b--;
+            }
+        }
+        return strResult;
+    }
+}

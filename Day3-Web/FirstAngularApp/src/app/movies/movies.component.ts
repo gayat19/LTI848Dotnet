@@ -15,7 +15,9 @@ export class MoviesComponent implements OnInit {
     //this.movieService = movieService;
     this.movies = this.movieService.getMovies();
   }
-
+  addToCart(movie){
+    this.movieService.addToCart(movie);
+  }
   ngOnInit(): void {
   }
 
