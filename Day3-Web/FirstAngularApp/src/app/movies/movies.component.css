@@ -1,0 +1,11 @@
+span{
+    color:darkmagenta;
+}
+p{
+    border: solid brown 1px;
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+}

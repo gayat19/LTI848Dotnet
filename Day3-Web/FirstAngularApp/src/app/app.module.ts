@@ -7,20 +7,25 @@ import { AppComponent } from './app.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
 import { LikeComponent } from './like/like.component';
 import { MovieComponent } from './movie/movie.component';
+import { FlowersComponent } from './flowers/flowers.component';
+import { MoviesComponent } from './movies/movies.component';
+import { MovieService } from './movie/movie.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     MymenuComponent,
     LikeComponent,
-    MovieComponent
+    MovieComponent,
+    FlowersComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [MovieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

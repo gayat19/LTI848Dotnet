@@ -11,11 +11,11 @@ export class MovieComponent implements OnInit {
 movieName:string;
 movie:Movie;
 movies:Movie[];
-movieSer:MovieService;
+//movieSer:MovieService;
 showToggle:boolean;
-  constructor() { 
+  constructor(private movieSer:MovieService) { 
     this.movie = new Movie();
-    this.movieSer = new MovieService();
+    //this.movieSer = new MovieService();
     this.movies = this.movieSer.getMovies();
     this.showToggle = true;
   }
@@ -27,6 +27,7 @@ showToggle:boolean;
   }
   displayDetails(){
     this.movieSer.addMovie(this.movie);
+    this.movie = new Movie();
     this.showToggle = false;
   }
 }
