@@ -1,0 +1,7 @@
+<select  #cid (change)="showOption(cid.value)">
+    <option *ngFor="let cust of customers" 
+    [value]="cust.id"  >{{cust.id}}</option>
+</select>
+<section>
+    <app-customer [myCustomer]="customer"></app-customer>
+</section>

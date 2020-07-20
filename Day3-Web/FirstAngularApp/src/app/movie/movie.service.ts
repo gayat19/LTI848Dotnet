@@ -58,8 +58,8 @@ export class MovieService{
                         movie.name = m.name;
                         movie.count = 1;
                         this.cart.push(movie)
-                        console.log(movie);
                     }
+                   
                   break;
                 }
         }
