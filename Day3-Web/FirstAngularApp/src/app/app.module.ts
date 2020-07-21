@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +9,7 @@ import { LikeComponent } from './like/like.component';
 import { MovieComponent } from './movie/movie.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { MoviesComponent } from './movies/movies.component';
+import {FoodComponent} from './food/food.component'
 import { MovieService } from './movie/movie.service';
 import { MoviecartComponent } from './moviecart/moviecart.component';
 import { SimpleComponent } from './simple/simple.component';
@@ -27,12 +28,14 @@ import {CustomerService} from './customer/customer.service';
     MoviecartComponent,
     SimpleComponent,
     CustomerComponent,
-    CustomersComponent
+    CustomersComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [MovieService,CustomerService],
   bootstrap: [AppComponent]

@@ -1,0 +1,55 @@
+<!--<div class="alert alert-success">
+    <label>Name</label>
+    <input type="text" class="form-control" [(ngModel)]="food.name" required minlength="3" #foodname=ngModel>
+   <p class="alert alert-danger" *ngIf="foodname.touched && foodname.invalid">
+        <span class="alert alert-danger" *ngIf="foodname.errors.required">Name cannot be empty</span>
+        <span class="alert alert-danger" *ngIf="foodname.errors.minlength">Name should be minimum 3 chars</span>
+    </p>    
+    <label>Type</label>
+    <input type="text" class="form-control" [(ngModel)]="food.type">
+    <label>Like Count</label>
+    <input type="number" class="form-control" [(ngModel)]="food.likeCount" >
+    <label>Hate Count</label>
+    <input type="number" class="form-control" [(ngModel)]="food.hateCount">
+    <button (click)="showFood(foodname)" class="btn btn-primary">AddFood</button>
+</div>-->
+<div class="alert alert-success">
+    <form [formGroup]="myForm" >
+        <label>Name</label>
+        <input type="text" class="form-control" formControlName="foodname">
+        <p class="alert alert-danger" *ngIf="foodname.touched && foodname.invalid">
+            <span class="alert alert-danger" *ngIf="foodname.errors.required">Name cannot be empty</span>
+        </p>    
+        <label>Type</label>
+        <input type="text" class="form-control" formControlName="foodtype">
+        <p class="alert alert-danger" *ngIf="foodtype.touched && foodtype.invalid">
+            <span class="alert alert-danger" *ngIf="foodtype.errors.required">Type cannot be empty</span>        </p>    
+        <label>Like Count</label>
+        <input type="number" class="form-control" formControlName="foodlike">
+        <p class="alert alert-danger" *ngIf="foodlike.touched && foodlike.invalid">
+            <span class="alert alert-danger" *ngIf="foodlike.errors.required">Like cannot be empty</span>
+            <span class="alert alert-danger" *ngIf="foodlike.errors.min">You are not allowed to hate sweets</span>
+        </p>    
+        <label>Hate Count</label>
+        <input type="number" class="form-control" formControlName="foodhate">
+        <p class="alert alert-danger" *ngIf="foodhate.touched && foodhate.invalid">
+            <span class="alert alert-danger" *ngIf="foodhate.errors.required">Hate cannot be empty</span>
+            
+        </p>    
+        <button (click)="showFood()"  class="btn btn-primary">AddFood</button>
+    </form>
+    
+</div>
+
+
+
+
+
+<p class="alert alert-primary" *ngIf="showDetails">
+  Food Name:{{food.name}}<br/>
+  Food Type : {{food.type}}<br/>
+  Like Count : {{food.likeCount}}<br/>
+  Hate Count : {{food.hateCount}}<br/>
+</p>
+<button class="btn btn-success" (click)="likeChange()">Like</button>
+<button class="btn btn-danger" (click)="hateChange()">Hate</button>

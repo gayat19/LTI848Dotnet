@@ -9,5 +9,35 @@
 <app-movie></app-movie> 
 <hr/>
 <app-movies></app-movies>
-<hr/>-->
+<hr/>
 <app-customers></app-customers>
+<app-food></app-food>-->
+<div [ngSwitch]="choice">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <!-- Links -->
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" (click)="choice='like'">Like</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="choice='food'">Food</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="choice='movie'">Movies</a>
+        </li>
+        </ul>
+    </nav>
+    <div *ngSwitchCase="'like'">
+        <app-like></app-like>
+    </div>
+    <div *ngSwitchCase="'food'">
+        <app-food></app-food>
+        
+    </div>
+    <div *ngSwitchCase="'movie'">
+        <app-moviecart></app-moviecart>
+        <app-movie></app-movie> 
+        <app-movies></app-movies>
+    </div>
+</div>
+
