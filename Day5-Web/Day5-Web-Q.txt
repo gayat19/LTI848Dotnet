@@ -1,0 +1,6 @@
+Create a Toy store App in angular
+
+With menu for 
+View Toys
+View Cart
+Shipping Details(With validation)
