@@ -1,0 +1,7 @@
+<button (click)="showUsers()" class="btn btn-success">GetAllUSers</button>
+
+<p *ngFor="let user of users">
+    Id:{{user.id}}
+    <br/>
+    Email:{{user.email}}
+</p>

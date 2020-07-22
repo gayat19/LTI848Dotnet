@@ -5,7 +5,10 @@ import {MovieService} from './movie.service';
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.css']
+  styles:[`section{
+    height: 200px;
+    width: 200px;
+}`]
 })
 export class MovieComponent implements OnInit {
 movieName:string;

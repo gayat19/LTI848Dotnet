@@ -15,7 +15,7 @@ export class FoodComponent {
 constructor(){
     this.food = new Food();
     this.myForm = new FormGroup({
-        foodname:new FormControl(null,Validators.required),
+        fn:new FormControl(null,Validators.required),
         foodtype:new FormControl(null,Validators.required),
         foodlike:new FormControl(null,[Validators.required,Validators.min(1)]),
         foodhate:new FormControl(null,Validators.required)
@@ -23,8 +23,8 @@ constructor(){
     this.showDetails = false;
 }
 
-public get foodname() {
-    return this.myForm.get('foodname');
+public get fname() {
+    return this.myForm.get('fn');
 }
 public get foodtype() {
     return this.myForm.get('foodtype');
@@ -41,7 +41,7 @@ showFood(){
     if(this.myForm.valid)
     {
         this.showDetails = true;
-        this.food.name = this.foodname.value;
+        this.food.name = this.fname.value;
         this.food.type = this.foodtype.value;
         this.food.likeCount = this.foodlike.value;
         this.food.hateCount = this.foodhate.value;

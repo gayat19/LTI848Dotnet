@@ -16,9 +16,9 @@
 <div class="alert alert-success">
     <form [formGroup]="myForm" >
         <label>Name</label>
-        <input type="text" class="form-control" formControlName="foodname">
-        <p class="alert alert-danger" *ngIf="foodname.touched && foodname.invalid">
-            <span class="alert alert-danger" *ngIf="foodname.errors.required">Name cannot be empty</span>
+        <input type="text" class="form-control" formControlName="fn">
+        <p class="alert alert-danger" *ngIf="fname.touched && fname.invalid">
+            <span class="alert alert-danger" *ngIf="fname.errors.required">Name cannot be empty</span>
         </p>    
         <label>Type</label>
         <input type="text" class="form-control" formControlName="foodtype">

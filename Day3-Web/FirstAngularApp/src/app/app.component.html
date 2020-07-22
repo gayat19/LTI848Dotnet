@@ -11,10 +11,10 @@
 <app-movies></app-movies>
 <hr/>
 <app-customers></app-customers>
-<app-food></app-food>-->
+<app-food></app-food>
 <div [ngSwitch]="choice">
     <nav class="navbar navbar-expand-sm bg-light">
-        <!-- Links -->
+      
         <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" (click)="choice='like'">Like</a>
@@ -40,4 +40,36 @@
         <app-movies></app-movies>
     </div>
 </div>
+<app-employee></app-employee>
+<nav class="navbar navbar-expand-sm bg-light">
+      
+    <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/like">Like</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/food">Food</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/movie">Movies</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/customer">Customer</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/employee">Employee</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/user">User</a>
+    </li>
+    </ul>
+</nav>
+<div>
+    <router-outlet></router-outlet>
+</div>-->
+<app-sample></app-sample>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
 
