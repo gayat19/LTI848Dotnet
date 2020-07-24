@@ -1,0 +1,58 @@
+Patient
+Staff
+Instruments
+Finance
+Maintain
+Doctors
+Labs
+Blood Bank
+Pharmacy
+Ambulance
+Opertaions
+Adminstration
+Infrastructure
+Appointments
+Insurance
+
+
+
+DevOps
+1) Version Control
+2) CI - Continous Integration
+3) CD - Continous Delivery
+4) CD - Continous Deployment
+
+
+
+Coding +PLan - SVN/Git/Jira/TFS
+Build - TFS/Maven/Gradle+Jenkins/Azure/AWS - Dependency
+Test - Jira/JUnit/NUnit/Selenium/Karma+Jenkins/Azure/AWS 
+Deploy - Docker+ /Ansible/Kubernetes -Puppet/Chef pull /SaltStack
+Monitor- Puppet/Chef/SaltStack/Nagios
+
+Configuration Management
+Change Control
+
+
+Version 5 - Module1 Complete
+Version 6 - Module2 Based on Module1
+Version 7 - Module2 Updations
+Path 1
+Module 2 Updations and maint
+
+Path 2
+Module 3 Based on Module 2
+Version 8
+Version 9
+
+
+
+
+
+
+
+
+
+
+
+
