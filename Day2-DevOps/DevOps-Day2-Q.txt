@@ -1,0 +1,62 @@
+Create a new repo in GitHub  - testwork
+
+Link your local folder (f1) with files
+s1.txt - hello by f1
+s2.txt - Welcome by f1
+
+ with the repo and make the first commit from f1
+
+Link another folder f2 and pull from the repo - testwork
+
+Make changes in the file s2.txt add a line
+
+added by f2
+
+push the change
+
+make change from f1 in s1 add a line
+
+Changed my file from f1
+
+and push teh change
+
+
+in the f1
+git init
+git remote add origin <"remote repo">
+(create the files)
+git add -A
+git commit -a -m <msg>
+git push origin master
+
+
+move to f2
+git init
+git remote add origin <"remote repo">
+git pull origin master
+change the file f1
+git add -A
+git commit -a -m <msg>
+git push origin master
+
+
+Create an repo with files f1 and f2 in the remote repo(Explore the remote repo)
+Pull data in to a local repo -(choose clone)
+make changes to the files in local
+stage and commit it
+clone again to see the effect
+make chages, then stage and push
+see the effect
+create a local branch b1
+base it with the master
+create a file f3 in the branch 
+create a branch in remote b1
+push the files to the new branch
+create a new branch b2 with b1 as base
+reset the base to master
+merge with master
+push to the remote master
+
+
+
+
