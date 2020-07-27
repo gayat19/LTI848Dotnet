@@ -79,6 +79,24 @@ Git GUI Download
 https://git-scm.com/download/gui/windows
 
 
+Create branch
+git branch <branchname>
+
+change branch localy
+git checkout <branchname>
+
+view all teh local branches
+git branch
+
+
+push to a particualr branch
+git push origin <branchname> 
+note teh branch should be present in the remote repo
+
+to pull files from a particular branch 
+git pull origin <branchname>
+
+
 
 
 
