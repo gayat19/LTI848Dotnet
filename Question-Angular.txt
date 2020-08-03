@@ -1,0 +1,15 @@
+Question 1
+Surround all the element with a para
+Create and Input Box to take name from user.  The input box should have the id "txt-name"
+Create a span with class "msg-show" 
+Add an button at the end when clicked shoud take the name from txt-name and
+If the name is "Ramu" then show "Welcome Admin" in the span bellow the textbox
+If the name is anyother show "Welcome <name>" in the span bellow the textbox.
+
+Question 2
+All elements of the component should be inside a div
+Have a section whcich shows the number of times user has clicked it
+The section should have initial value of "clicked 10 times"
+where 10 is the initial value of the click-count
+if the section is clicked more than 15 times then the section should turn to green background using the style in "done" class
+Every time the section is clicked the value of the click count shold increase

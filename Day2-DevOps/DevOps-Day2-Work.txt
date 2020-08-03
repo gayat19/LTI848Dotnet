@@ -97,6 +97,9 @@ to pull files from a particular branch
 git pull origin <branchname>
 
 
+Set the user mail
+git config --global user.email "<mailid>"
+
 
 
 

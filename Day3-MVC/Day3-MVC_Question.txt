@@ -1,0 +1,12 @@
+create a customer table with id,name, age and pic url
+
+List the customer id's in a page with a select link. which the select link is clicked
+In the details view show every customer's details. 
+
+Cusomer Id: 1234
+
+Customer Name: Ramu
+
+Customer Age:  22
+
+Customer Pic : <pic here>

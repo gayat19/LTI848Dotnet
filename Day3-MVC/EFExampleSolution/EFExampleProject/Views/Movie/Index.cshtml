@@ -1,0 +1,21 @@
+﻿@model IEnumerable<EFExampleProject.tblMovie>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <div>
+        <dl>
+            @foreach (var item in Model)
+            {
+                <dt>@item.id</dt>
+                <dd>@item.name&nbsp;@item.duration</dd>
+            }
+        </dl>
+    </div>
+</body>
+</html>

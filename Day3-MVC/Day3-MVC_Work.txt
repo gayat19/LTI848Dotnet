@@ -1,0 +1,26 @@
+EF
+  Cross Platform
+  EDM- Entity Data Model
+  Querying
+  Saving
+  Change Tracking
+  Transactions
+  Conversions
+  Configurations
+
+EF Roles
+  Maps Class - Tables
+  Converts LINQ - SQL
+  Tracks Changes
+  Saves Updations
+Common terms
+   Conceptual Model - Class model,Storage Model - table model, Mapping - Class - table
+   Entity SQL -EF6 - Similar to LINQ
+   Object Service - Entry point for data access
+   Entity Client Data Provider - LINQ - Entities or reverse
+   ADO.Net Provider - ADO Concept
+
+POCO- Plain Old CLR Object
+Dynamic Proxy Entity - Lazy Loading(When u need it it will Load it)
+
+TAT - will improve if u lazy load

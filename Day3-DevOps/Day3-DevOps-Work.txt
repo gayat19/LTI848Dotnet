@@ -1,0 +1,42 @@
+Java Download
+
+https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+
+Jenkins Download
+https://www.jenkins.io/download/
+
+Put the jenkins.war file in a folder in c:
+
+In cmd prompt namvigate to this folder the key in 
+java -jar jenkins.war --httpPort=8077
+
+CI/CD
+
+MS Build, Maven, Git - Global configuration
+
+Maven and Git instal automatic
+
+MS Build
+provide name and path
+Note Path example
+C:\Program Files (x86)\Microsoft Visual Studio\<latest>\Community\MSBuild\<latest>\Bin\MSBuild.exe
+
+Create a new proj 
+Push it in the gitHub
+Create a job in jenkins
+Build ur proj
+Change ur proj
+Push again
+Build again
+
+Design ur database
+Have some dummy data in database
+Creating BL
+Creating ur FE
+
+
+
+
+
+
+

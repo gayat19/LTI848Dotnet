@@ -1,0 +1,15 @@
+REST - Representation State Tranfer
+Customer - Resource
+GET
+GET/{ID}
+POST
+PUT/{ID}
+DELETE/{ID}
+
+Customer/Create
+Customer/Create - Post
+
+
+
+GET - Browser request 
+Usually used in MVC for passing Data from controller to the view

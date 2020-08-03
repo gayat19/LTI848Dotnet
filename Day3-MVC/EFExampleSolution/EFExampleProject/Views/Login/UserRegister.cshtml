@@ -1,0 +1,35 @@
+﻿@model EFExampleProject.UserData
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserRegister</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("UserRegister", "Login", FormMethod.Post))
+        {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(m => m.username)</td>
+                <td>@Html.EditorFor(m => m.username)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.password)</td>
+                <td>@Html.PasswordFor(m => m.password)</td>
+            </tr>
+            <tr>
+                <td><label>Re-Type Password</label></td>
+                <td><input type="password" name="RePass" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Register" /></td>
+
+            </tr>
+        </table>
+        }
+    </div>
+</body>
+</html>
