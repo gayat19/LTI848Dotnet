@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MVCOtherTopicsProject.Models.Customer>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Details</h2>
+<div>
+    @foreach (var item in Model)
+    {
+        {
+            Html.RenderPartial("_Details", item);
+        }
+    }
+</div>
+<hr/>
+<div>
+    @foreach (var item in Model)
+    {
+        {
+            @Html.Action("PartData",new { name=item.Name})
+        }
+    }
+</div>
+
+

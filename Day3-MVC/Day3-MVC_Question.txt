@@ -10,3 +10,5 @@ Customer Name: Ramu
 Customer Age:  22
 
 Customer Pic : <pic here>
+
+Hint - use image url, Store image in proj.

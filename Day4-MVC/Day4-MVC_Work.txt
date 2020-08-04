@@ -1,0 +1,16 @@
+DRY
+  LayoutPage
+  @RenderBody()
+  _Viewstart
+  Partial View
+    @Html.Partial - code
+    @{
+        Html.RenderPartial()
+      } - returns void
+     writes to the HTML STream
+     Action Method+Return PartialView
+    @Scripts.Render("")
+    Codel First
+    Model First
+
+Create an new MVC Application with a layout

@@ -24,3 +24,7 @@ POCO- Plain Old CLR Object
 Dynamic Proxy Entity - Lazy Loading(When u need it it will Load it)
 
 TAT - will improve if u lazy load
+
+Updating the EF
+Customizing the Content with Model
+

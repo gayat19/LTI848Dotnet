@@ -1,0 +1,12 @@
+﻿@model MVCOtherTopicsProject.Models.Customer
+
+<div>
+    Customer age : @Model.Age
+</div>
+<div>
+    @foreach (var item in Model.Skills)
+    {
+        @item
+        <br/>
+    }
+</div>
