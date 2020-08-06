@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="divStudent">
+        
+    </div>
+    <script src="Scripts/jquery-3.5.1.js"></script> 
+    <script>
+        var uri = "myapp/Student";
+        $(document).ready(function () {
+            $.getJSON(uri)
+                .done(function (data) {
+                    $.each(data, function (key, item) {
+                        console.log(item);
+                        $("#divStudent").append("<p>Student Id" + item.id + "<br/>Student Name "
+                            + item.name + "<br/>Student Age " + item.age + "</p>");
+                    })
+                })
+        })
+    </script>
+</body>
+</html>

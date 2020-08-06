@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day5-MVC\AttributesExampleMVCSolution\AttributesExampleMVCProject\obj\Release\Package\PackageTmp" />
+  <setAcl path="E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day5-MVC\AttributesExampleMVCSolution\AttributesExampleMVCProject\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="E:\sony lap backup\d drive\Corp\Srushti\LTI-Dotnet-Online\Day5-MVC\AttributesExampleMVCSolution\AttributesExampleMVCProject\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -1,0 +1,12 @@
+create a Web API which 
+gives you interface to get the 
+name and score of every player
+
+(Use a model class which has name and score details)
+
+When you get all the scores it has to be sorted in descending order of score
+
+You should be able to add a new score
+Update an exsisting one 
+
+Create a HTML page which will display the name and score in a table

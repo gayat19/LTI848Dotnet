@@ -1,0 +1,16 @@
+Create an new MVC Application that will
+
+
+
+Show the user all the Titles that are available
+
+Show all the Author details. 
+When a author is selected redirect to a view which shows all the titles written by that author
+
+The above 2 fuctionalities shoule be available only to logged in user
+
+Use Layout to format the look of the pages
+
+Note:
+Use the employee table to login
+Username is the employee id and the password will be their firstname.
