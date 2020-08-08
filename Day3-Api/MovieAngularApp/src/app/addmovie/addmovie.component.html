@@ -1,0 +1,8 @@
+<p>addmovie works!</p>
+Movie Name : <input type="text" [(ngModel)]="movie.name"><br/>
+Movie Name : <input type="number" [(ngModel)]="movie.duration"><br/>
+<button (click)="insertMovie()">Add Movie</button>
+<p *ngIf = "result">
+    Movie Added!!!
+</p>
+

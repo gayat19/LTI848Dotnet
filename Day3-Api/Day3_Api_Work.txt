@@ -1,0 +1,71 @@
+DiscShopModel
+create ef context with dbMovieShop
+MoviesController with ef's tblMovie model
+
+
+In the "WebApiConfig.cs" file
+in the Register method
+
+ config.Formatters.Remove(config.Formatters.XmlFormatter);
+
+
+In the webApi project download and install 
+"Microsoft.AspNet.WebApi.Cors" using nuget
+
+In the "WebApiConfig.cs" file
+in the Register method
+config.EnableCors();
+
+
+in your "MovieController.cs"
+On top of ur class annotate
+    [EnableCors(origins: "http://localhost:4200",headers:"*",methods:"*")]
+
+
+Anuglar
+MovieAngularApp
+create a "models" folder inside "app" folder
+inside the "models" folder create a movie.ts file
+export class Movie{
+    id:number;
+    name:String;
+    duration:number;
+}
+create a "services" folder inside "app" folder
+inside the "services" folder create a movieService.ts file
+
+import { Movie } from "../models/movie";
+import {HttpClient} from '@angular/common/http';
+import { Injectable } from "@angular/core";
+
+@Injectable()
+export class MovieService{
+
+    movies:Movie[];
+    constructor(private http:HttpClient){
+        this.movies = [];
+    }
+
+    public getMovies(){
+        return this.http.get("http://localhost:55596/api/Movies");
+    }
+
+}
+
+Add your service "MovieService" in the "  providers" section of the "App.module.ts"
+
+
+
+in the "app.module.ts" file
+import {HttpClientModule} from '@angular/common/http';
+
+and add "HttpClientModule" in the imports section of the "@NgModule" decorator.
+
+Generate a component "ng g c showmovies"
+
+In the "showmovies.component.ts"
+
+
+
+
+

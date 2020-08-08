@@ -1,0 +1,10 @@
+<p>showmovies works!</p>
+<button (click)="fetchMovies()">Display movies</button>
+<div>
+    <p *ngFor="let m of movies">
+        {{m.id}}<br/>
+        {{m.name}}<br/>
+        {{m.duration}}<br/>
+
+    </p>
+</div>

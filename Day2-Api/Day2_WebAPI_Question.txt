@@ -1,0 +1,10 @@
+
+
+Create an Web API which takes a
+ author id and just returns his 
+full name(combine first and last name)
+
+Take a order number and give back the title name and the total price for that order
+
+note : you can use stored procedure/child table
+

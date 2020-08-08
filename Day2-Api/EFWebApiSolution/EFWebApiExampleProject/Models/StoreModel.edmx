@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbMovieShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Age" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblDisc">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="movie_id" Type="int" />
+          <Property Name="rent_cost" Type="float" />
+          <Property Name="is_Available" Type="bit" />
+        </EntityType>
+        <EntityType Name="tblMovie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="20" />
+          <Property Name="duration" Type="float" />
+        </EntityType>
+        <EntityType Name="UserData">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_mid">
+          <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="0..1" />
+          <End Role="tblDisc" Type="Self.tblDisc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMovie">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tblDisc">
+              <PropertyRef Name="movie_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="proc_GetMovie" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="mid" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="dbMovieShopModelStoreContainer">
+          <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblDisc" EntityType="Self.tblDisc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblMovie" EntityType="Self.tblMovie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserData" EntityType="Self.UserData" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_mid" Association="Self.fk_mid">
+            <End Role="tblMovie" EntitySet="tblMovie" />
+            <End Role="tblDisc" EntitySet="tblDisc" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbMovieShopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblDisc">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="movie_id" Type="Int32" />
+          <Property Name="rent_cost" Type="Double" />
+          <Property Name="is_Available" Type="Boolean" />
+          <NavigationProperty Name="tblMovie" Relationship="Self.fk_mid" FromRole="tblDisc" ToRole="tblMovie" />
+        </EntityType>
+        <EntityType Name="tblMovie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="duration" Type="Double" />
+          <NavigationProperty Name="tblDiscs" Relationship="Self.fk_mid" FromRole="tblMovie" ToRole="tblDisc" />
+        </EntityType>
+        <EntityType Name="UserData">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_mid">
+          <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="0..1" />
+          <End Role="tblDisc" Type="Self.tblDisc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMovie">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tblDisc">
+              <PropertyRef Name="movie_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="dbMovieShopEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+          <EntitySet Name="People" EntityType="Self.Person" />
+          <EntitySet Name="tblDiscs" EntityType="Self.tblDisc" />
+          <EntitySet Name="tblMovies" EntityType="Self.tblMovie" />
+          <EntitySet Name="UserDatas" EntityType="Self.UserData" />
+          <AssociationSet Name="fk_mid" Association="Self.fk_mid">
+            <End Role="tblMovie" EntitySet="tblMovies" />
+            <End Role="tblDisc" EntitySet="tblDiscs" />
+          </AssociationSet>
+          <FunctionImport Name="proc_GetMovie" ReturnType="Collection(dbMovieShopModel.proc_GetMovie_Result)">
+            <Parameter Name="mid" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="proc_GetMovie_Result">
+          <Property Type="String" Name="name" Nullable="true" MaxLength="20" />
+          <Property Type="Double" Name="duration" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbMovieShopModelStoreContainer" CdmEntityContainer="dbMovieShopEntities">
+          <EntitySetMapping Name="C__MigrationHistory">
+            <EntityTypeMapping TypeName="dbMovieShopModel.C__MigrationHistory">
+              <MappingFragment StoreEntitySet="__MigrationHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="People">
+            <EntityTypeMapping TypeName="dbMovieShopModel.Person">
+              <MappingFragment StoreEntitySet="People">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblDiscs">
+            <EntityTypeMapping TypeName="dbMovieShopModel.tblDisc">
+              <MappingFragment StoreEntitySet="tblDisc">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="movie_id" ColumnName="movie_id" />
+                <ScalarProperty Name="rent_cost" ColumnName="rent_cost" />
+                <ScalarProperty Name="is_Available" ColumnName="is_Available" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblMovies">
+            <EntityTypeMapping TypeName="dbMovieShopModel.tblMovie">
+              <MappingFragment StoreEntitySet="tblMovie">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="duration" ColumnName="duration" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserDatas">
+            <EntityTypeMapping TypeName="dbMovieShopModel.UserData">
+              <MappingFragment StoreEntitySet="UserData">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="proc_GetMovie" FunctionName="dbMovieShopModel.Store.proc_GetMovie">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="dbMovieShopModel.proc_GetMovie_Result">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="duration" ColumnName="duration" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
